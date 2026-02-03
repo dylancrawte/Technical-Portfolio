@@ -1,6 +1,6 @@
-# Retro TV Three.js Project
+# Technical Portfolio / Retro-TV Three JS
 
-A 3D interactive retro-style television created using Three.js and Vite. This project features a detailed 3D model of a vintage television set with animated static effects and interactive controls.
+A 3D interactive retro-style television created using Three.js and Vite. This project features a detailed 3D model of a vintage television set with animated static effects and interactive controls, before scrolling into a technical portfolio!
 
 ## Features
 
