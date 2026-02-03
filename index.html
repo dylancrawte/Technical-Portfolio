@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dylan Crawte Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="site-title" id="site-title" aria-hidden="true">Technical portfolio</h1>
+    <script type="module" src="/src/main.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <div class="about">
+      <h1>Hi There!</h1>
+      <p>
+        I'm Dylan Crawte, a full stack developer currently working for International Airlines Group.
+      </p>
+      <p>
+        I am driven by creativity and curiosity, and aim to develop interesting,
+        engaging applications that push the boundaries of innovation. I have a
+        passion for all things technology and design; from software engineering
+        & UX design, to music production and computational
+        neuroscience!
+      </p>
+      <p>
+        Outside of work I am passionate about music, both playing live and
+        producing. I also am a University of Bristol graduate,
+        where in my master's year had the opportunity to delve into the world of
+        computational neuroscience.
+      </p>
+      <p>
+        Please enjoy some of my projects below and feel free to get in touch!
+      </p>
+    </div>
+    <div class="projects">
+      <h1>Projects</h1>
+      <div class="project-item">
+        <div class="project-images">
+          <video src="/videos/go43-vid.mov" alt="Go43 App Demo" class="project-image bidly-video" onerror="this.style.display='none'" controls loop></video>
+          <div class="diagram-stack">
+            <img src="/images/SDLC.png" alt="Software Development Lifecyle" class="project-image mvc-diagram" onerror="this.style.display='none'" />
+            <img src="/images/MERN-image.png" alt="MERN Architecture" class="project-image mern-image" onerror="this.style.display='none'" />
+          </div>
+        </div>
+        <div class="project-description">
+          <h2>Go4-3</h2>
+          <div class="tech-tags">
+            <span class="tech-tag">React Native</span>
+            <span class="tech-tag">Typescript</span>
+            <span class="tech-tag">Zustand</span>
+            <span class="tech-tag">Node JS</span>
+            <span class="tech-tag">Express</span>
+            <span class="tech-tag">Product Management</span>
+          </div>
+          <p>
+            Meet Go43 - the platform which connects music labels with TikTok influencers for their marketing campaigns.
+          <p>
+            The app was built using React Expo, MongoDB backend with an Express API layer (MERN). 
+            It is live on the iOS app store and features public TikTok API integration, for both user sign in and campaign analytic reporting.
+          <p>  
+            I built the app's MVP independently, and recruited and managed a small team of engineers for later version releases.
+          </p>
+          <a href="https://www.go43.co.uk/" target="_blank" rel="noopener noreferrer" class="visit-button">Visit Go4-3</a>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-description">
+          <h2>AI Agent development</h2>
+          <div class="tech-tags">
+            <span class="tech-tag">AWS Bedrock</span>
+            <span class="tech-tag">Copilot Studio</span>
+          </div>
+          <div class="project-images">
+            <img
+              src="/images/agentic-architecture.jpg"
+              alt="Newsletter Email Screenshot"
+              class="project-image email-img"
+              onerror="this.style.display='none'"
+            />
+            <img
+              src="/images/techCompassScreenshot.jpeg"
+              alt="Newsletter Email Screenshot"
+              class="project-image email-img"
+              onerror="this.style.display='none'"
+            />
+          </div>
+          <p>
+            
+          </p>
+          <p>
+           Both inside and outside of work, custom AI Agents are pivotal to my workflow. 
+          <p>
+            In my start up - an R&D RAG Agent proved essential to understand the current market and gaps we could fill. 
+            During my day job, a useful tool I have built is the Tech Compass agent, which uses a specific knowledge base of company documents to answer 
+            questions employees may have about approved technologies.
+          <p>
+            AWS Bedrock is a powerful framework for building more complex agents, whilst copilot studio helps me rapidly develop an idea into a useable tool, 
+            such as my React Expo Helper - an agent hooked up to the Expo documentation to assist with daily development tasks and problems!
+          </p>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-images">
+          <img
+            src="/images/website1.png"
+            alt="Website Screenshot 1"
+            class="project-image website-img"
+            onerror="this.style.display='none'"
+          />
+        </div>
+        <div class="project-description">
+          <h2>This Website</h2>
+          <div class="tech-tags">
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+          </div>
+          <p>
+            I have been working on this website as a fun side project, whilst
+            also developing my front end design skills. It features an
+            interactive 3D computer (give it a spin!), animation and effects,
+            and a clean, retro aesthetic.
+          </p>
+        </div>
+      </div>
+      
+      <div class="project-item">
+        <div class="project-description">
+          <h2>Automated Newsletter</h2>
+          <div class="tech-tags">
+            <span class="tech-tag">Power Automate</span>
+            <span class="tech-tag">Python</span>
+          </div>
+          <div class="project-images">
+            <img
+              src="/images/emailScreenshot.png"
+              alt="Newsletter Email Screenshot"
+              class="project-image email-img"
+              onerror="this.style.display='none'"
+            />
+          </div>
+          <p>
+            When i first joined IAG, they had me manually filling out the monthly
+            newsletter. So, I designed a system that automatically retrieves news articles and
+            generates a report of summaries. It features weekly, automated
+            emailing, a dynamic date filter for the content, and embedded
+            hyperlinks to the articles in the titles.
+          </p>
+          <p>
+            This project is designed and maintained by myself. It began as a python script that utilised a news API, 
+            but has since been changed to a more effective power automate solution.
+          </p>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-description">
+          <h2>Tic-Tac-Bot</h2>
+          <div class="tech-tags">
+            <span class="tech-tag">TypeScript</span>
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+          </div>
+          <div class="project-images">
+            <img
+              src="/images/tictacbot.png"
+              alt="Tic-Tac-Bot Game Interface"
+              class="project-image tictac-img"
+              onerror="this.style.display='none'"
+            />
+          </div>
+          <p>
+            This project is a fun and simple game of Tic-Tac-Toe on the front
+            end, but the magic lies underneath the hood, in the form of a
+            mini-max algorithm that creates an AI bot to play against. It also includes an interactive background, and displayed persistent data of the win records. Good
+            luck!
+          </p>
+          <a
+            href="https://tic-tac-bott-73.vercel.app/"
+            target="_blank"
+            class="visit-button"
+            >Visit Game!</a
+          >
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-description">
+          <h2>Music Production Projects</h2>
+          <div class="tech-tags">
+            <span class="tech-tag">Ableton Live</span>
+            <span class="tech-tag">Sound Design</span>
+            <span class="tech-tag">Mixing & Mastering</span>
+          </div>
+          <div class="project-images">
+            <img
+              src="/images/ableton.jpg"
+              alt="Ableton Live Project"
+              class="project-image ableton-img"
+              onerror="this.style.display='none'"
+            />
+          </div>
+          <p>
+            As mentioned, I have a passion for music, and it only felt right to
+            include some of that in this portfolio. I use Ableton Live
+            for production, with a range of plug ins and live
+            instrumentation to achieve what I consider to be a pretty unique
+            sound. I've had tracks featured in Spotify's editorial playlists, as
+            well as support from artists such as My Nu Leng and Dr Dubplate.
+            Check out the links below!
+          </p>
+          <div class="music-buttons">
+            <a
+              href="https://soundcloud.com/crawta/sets/crawta-releases"
+              target="_blank"
+              class="platform-button"
+            >
+              <img src="/images/soundcloud.png" alt="SoundCloud" />
+            </a>
+            <a
+              href="https://open.spotify.com/artist/0uetZYfTX6zFzEVNT06pNZ"
+              target="_blank"
+              class="platform-button"
+            >
+              <img src="/images/spotify.png" alt="Spotify" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-item">
+      <div class="project-images">
+        <img
+          src="/images/EEG.jpg"
+          alt="EEG Image"
+          class="project-image website-img"
+          onerror="this.style.display='none'"
+        />
+      </div>
+      <div class="project-description">
+        <h2>Computational Neuroscience</h2>
+        <div class="tech-tags">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Data analysis</span>
+        </div>
+        <p>
+         At University, I studied Neuroscience, and in my master's year, my dissertation focused around EEG and computational neuroscience. 
+         The successful project involved working with a stimulation pattern that aligned with the peaks and troughs of a participants 
+         EEG signal (closed-loop stimulation), as a treatment for neuro-muscular conditions. 
+         The project involved work using Python to design and edit the stimulation pattern, as well as analysing the data collected from the participant.
+        </p>
+      </div>
+    </div>
+
+    <div class="contact">
+      <h1>Contact</h1>
+      <div class="contact-buttons">
+        <a
+          href="https://www.linkedin.com/in/dylan-crawte-681324225/"
+          target="_blank"
+          class="platform-button"
+        >
+          <img src="/images/linkedin.png" alt="LinkedIn" />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
