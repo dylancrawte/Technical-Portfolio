@@ -4,17 +4,12 @@ A 3D interactive retro-style television created using Three.js and Vite. This pr
 
 ## Features
 
-- Realistic 3D model of a retro television
+- 3D model of a retro computer
 - Interactive orbit controls for 360° viewing
 - Animated static effect on the TV screen
 - Responsive design that adapts to window size
 - Realistic materials and lighting
-- Detailed components including:
-  - Wooden-textured TV body
-  - Control knobs
-  - V-shaped antenna
-  - Screen with frame
-  - Dynamic static effect
+- Extended portfolio template with relevant links
 
 ## Technologies Used
 
@@ -34,46 +29,21 @@ A 3D interactive retro-style television created using Three.js and Vite. This pr
 ### Installation
 
 1. Clone the repository or download the files
-2. Navigate to the project directory:
 
-```bash
-cd vite-project
-```
-
-3. Install dependencies:
+2. Install dependencies:
 
 ```bash
 npm install
 ```
 
-4. Start the development server:
+3. Start the development server:
 
 ```bash
 npm run dev
 ```
 
-5. Open your browser and visit `http://localhost:5173`
+4. Open your browser and visit `http://localhost:5173`
 
-## Usage
-
-- Left-click and drag to rotate the TV
-- Right-click and drag to pan
-- Scroll to zoom in/out
-- The TV screen displays an animated static effect
-
-## Project Structure
-
-```
-vite-project/
-├── src/
-│   ├── main.js        # Main Three.js scene and logic
-│   └── style.css      # Global styles
-├── public/            # Static assets
-├── index.html         # Entry point
-└── package.json       # Project dependencies and scripts
-```
-
-## Updates
 
 ### Version 1.0.0 (Initial Release)
 
